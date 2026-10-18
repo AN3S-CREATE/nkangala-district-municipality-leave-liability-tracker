@@ -1,0 +1,145 @@
+{
+  "version": "2",
+  "flowTitle": "Daily Document Health Update",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Day at 9 AM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Africa/Johannesburg",
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "valid": false,
+      "displayName": "Find all documents",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "QWkTPc73ww2C8JDp"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "d4e5f678-90ab-cdef-1234-567890abcd",
+      "valid": true,
+      "displayName": "Documents found?",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "e5f67890-abcd-ef12-3456-7890abcd01",
+          "valid": true,
+          "displayName": "Has documents",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_is_not_empty",
+                        "id": "8db96197-5c96-4916-a8ba-f2899b544d40",
+                        "data": "{{ a1b2c3d4-e5f6-7890-abcd-ef1234567890[\"tasks\"] }}",
+                        "comparator": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "b2c3d4e5-f678-90ab-cdef-1234567890ab",
+              "valid": true,
+              "displayName": "Generate health summary",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-openai",
+                "pieceVersion": "1.0.0",
+                "actionName": "ai.ask",
+                "input": {
+                  "model": "openai/gpt-5.4-mini",
+                  "prompt": "Review the document health status from the project data and produce a concise daily digest. Identify stale documents (not updated in 30+ days), documents with low completeness scores, and issues needing immediate attention. Output 3-5 bullet points with: critical alerts first, then documents needing review, then overall health snapshot."
+                }
+              }
+            },
+            {
+              "name": "c3d4e5f6-7890-abcd-ef12-34567890abcd",
+              "valid": true,
+              "displayName": "Send daily health digest",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "1.0.0",
+                "actionName": "notify.email",
+                "input": {
+                  "body": "{{ b2c3d4e5-f678-90ab-cdef-1234567890ab[\"result\"] }}",
+                  "subject": "Daily Document Health Digest",
+                  "recipientEmail": "admin@nkangala.gov.za"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "f67890ab-cdef-1234-5678-90abcd0123",
+          "valid": true,
+          "displayName": "No documents",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "g7890abc-def1-2345-6789-0abcdef01234",
+              "valid": true,
+              "displayName": "Send empty digest note",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "1.0.0",
+                "actionName": "notify.email",
+                "input": {
+                  "body": "No documents found in the repository today. The document workspace is empty — nothing to review.",
+                  "subject": "Daily Document Health Digest",
+                  "recipientEmail": "admin@nkangala.gov.za"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "QWkTPc73ww2C8JDp": {
+      "id": "QWkTPc73ww2C8JDp",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

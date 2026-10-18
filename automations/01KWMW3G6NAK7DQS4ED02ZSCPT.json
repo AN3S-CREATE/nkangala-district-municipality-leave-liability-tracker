@@ -1,0 +1,147 @@
+{
+  "version": "2",
+  "flowTitle": "NKANGALA ZAR Liability Audit",
+  "trigger": {
+    "valid": true,
+    "displayName": "Run ZAR Liability Audit",
+    "type": "MANUAL",
+    "settings": {
+      "inputUiInfo": {},
+      "paramsSchema": {
+        "type": "object",
+        "properties": {
+          "auditDate": {
+            "type": "string",
+            "description": "Input for auditDate"
+          },
+          "topFiveJson": {
+            "type": "string",
+            "minLength": 2,
+            "description": "Input for topFiveJson"
+          },
+          "criticalCount": {
+            "type": "number",
+            "minimum": 0
+          },
+          "employeesCount": {
+            "type": "number",
+            "minimum": 0
+          },
+          "totalLiability": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "b2000000-0000-4000-8000-00000000b001",
+      "valid": false,
+      "displayName": "1. Log Audit Entry (raw figures, always persisted)",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@adat1": {
+              "data": {
+                "value": "{{ trigger[\"auditDate\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@adat1"
+            },
+            "@cnt3e": {
+              "data": {
+                "value": "{{ trigger[\"employeesCount\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@cnt3e"
+            },
+            "@crt4c": {
+              "data": {
+                "value": "{{ trigger[\"criticalCount\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@crt4c"
+            },
+            "@top6f": {
+              "data": {
+                "value": "{{ trigger[\"topFiveJson\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@top6f"
+            },
+            "@totl2": {
+              "data": {
+                "value": "{{ trigger[\"totalLiability\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@totl2"
+            }
+          },
+          "content": "ZAR Liability Audit — {{ trigger[\"employeesCount\"] }} employees",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "fmH5r52F8bTY4Qob"
+          }
+        }
+      }
+    },
+    {
+      "name": "a1000000-0000-4000-8000-00000000a001",
+      "valid": true,
+      "displayName": "2. Generate Executive ZAR Summary (grounded, no hallucinated figures)",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.generate",
+        "input": {
+          "input": "Total Liability: R{{ trigger[\"totalLiability\"] }} ZAR. Employees Audited: {{ trigger[\"employeesCount\"] }}. Critical Debt Count: {{ trigger[\"criticalCount\"] }}. Top 5 Employees (JSON): {{ trigger[\"topFiveJson\"] }}",
+          "prompt": "You are the ZAR Liability Auditor, a data-driven financial risk auditor for NKANGALA District Municipality. Write a short, scannable executive summary (max 6 sentences) of the organization's total leave liability, using ONLY the figures provided below — never estimate, round beyond 2 decimals, or invent any employee, division, or amount not explicitly given. If the Top 5 JSON is empty or has fewer than 5 entries, only discuss the entries actually present. ALWAYS use South African Rands (ZAR) formatting for every currency figure, e.g. 'R85,100.00'. Never use any other currency symbol or code. Highlight the total liability, how many employees are flagged Critical Debt, and recommend enforcing mandatory PTO for the highest-risk employees to protect the municipality's budget."
+        }
+      }
+    },
+    {
+      "name": "c3000000-0000-4000-8000-00000000c001",
+      "valid": false,
+      "displayName": "3. Attach Executive Summary to Audit Entry",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "updateCustomFields",
+        "input": {
+          "fields": {
+            "@sum5r": {
+              "data": {
+                "value": "{{ a1000000-0000-4000-8000-00000000a001[\"result\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@sum5r"
+            }
+          },
+          "nodeId": "{{ b2000000-0000-4000-8000-00000000b001[\"nodeId\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "fmH5r52F8bTY4Qob"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "fmH5r52F8bTY4Qob": {
+      "id": "fmH5r52F8bTY4Qob",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

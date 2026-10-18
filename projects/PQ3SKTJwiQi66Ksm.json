@@ -1,0 +1,3728 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "819a2d94-f552-4880-bd2a-647d52512ea5",
+        "text": {
+          "ops": [
+            {
+              "insert": "TASKS.md"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "8251234d-917f-4e44-9de5-d380661dcc69",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Done: Rooted all remaining UI components (EmployeeFormDialog, CsvImportDialog, AgentChatPanel, DocumentWorkspace, DocumentsTable) into municipal theme — forest green CTA buttons, gold FAB + tab indicators, forest-themed sidebar/tab headers, table headers in forest uppercase",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "da7d3537-bc5c-401d-be45-56dec8fd5dc2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Done",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "4fdf2838-50a5-4e3e-b8ea-f80a3b0d49b4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-06 03:57 UTC - Primary Request and Intent",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "d276527f-c7e1-425b-a1dd-2abaf6c27368",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Primary Request and Intent: The user wants to configure and enable login settings for their \"Leave Liability Tracker\" web app. They have explicitly stated that the \"Password protection\" feature in the app's Publish settings is incorrect for their needs and expressed frustration that the login functionality is not working as expected.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b0193665-9ffd-4f12-b6f2-c504c319b12e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Files and Code Sections:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "0e3b49f0-c5c3-4818-9322-3ce511f22cea",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/genesis-auth.tsx: Defines the GenesisAuth wrapper and the OIDC AuthProvider configuration.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "82c4b5fa-2b73-43c7-8d75-92f4ad363cd3",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Snippet:",
+                                  "attributes": {
+                                    "italic": true
+                                  }
+                                },
+                                {
+                                  "insert": " <AuthProvider authority={${origin}/_genesis/auth} client_id=\"default\" ... />",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "a60b17b6-5746-4361-8fb9-156787aaeede",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/gateway-auth.tsx: Manages the injection of id_token into outgoing requests to the backend gateway.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": [
+                          {
+                            "type": "text",
+                            "id": "a886132e-e99b-421a-b1c4-e1a55668e46c",
+                            "text": {
+                              "ops": [
+                                {
+                                  "insert": "Snippet:",
+                                  "attributes": {
+                                    "italic": true
+                                  }
+                                },
+                                {
+                                  "insert": " if (currentIdToken != null && isGatewayRequest(url)) { headers.set('Authorization', Bearer ${currentIdToken}); }",
+                                  "attributes": {}
+                                },
+                                {
+                                  "insert": "\n",
+                                  "attributes": {
+                                    "paragraph": true
+                                  }
+                                }
+                              ]
+                            },
+                            "format": {
+                              "node": "bullet",
+                              "children": null
+                            },
+                            "collapsed": false,
+                            "completed": false,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "id": "d6e04e52-7c49-4edc-b006-cc3a16b59089",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/main.tsx: Entry point that imports the auth interceptors.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "1da587e0-c8aa-4f16-8afb-b1e36ddbda28",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Errors and fixes:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "baa7c325-be2b-4464-bb29-d9da207cf874",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Misinterpretation of User Request:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " I incorrectly directed the user to the Publish settings in the app editor, suggesting the \"Password protection\" toggle. The user corrected me, noting this locks the app behind a master password rather than providing standard user sign-in. I acknowledged this error and transitioned to identifying that Space-level settings are the source of truth for auth providers.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "d1a875d5-8059-46c3-b5ac-b903bea0b751",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Problem Solving:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "a6537e23-0361-44ed-ad17-a749e6060d3c",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Identified that the app logic correctly handles GenesisAuth, but the underlying OIDC providers must be configured at the Space level.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "aa984af0-0e73-4bcd-91c5-fef4a6d60347",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Navigated to the app editor initially and then to the Space level to attempt to locate the correct configuration interface.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "f90e49e7-b691-4d09-83d7-329f15cdb3f2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "All user messages:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "65b1dca0-8388-4d70-a085-c6ca0d0b9cbb",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"dontb ee theb login setings\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "4dfd4305-de77-4c5a-8522-1d4130bd4fa5",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"Publich but atached is the only seting closly related but it locks the app with mastr passwor\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f27bcfb4-0027-4c43-84e7-0409288bf302",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"but the Your app is already wired for auth. When someone visits, they will see the sign-in screen with the providers the Genesis platform makes available. The \"Password protection\" toggle should stay off — leave it alone. [Wait,] is not working and this is m telkling you for the 6th time\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "07bde312-58c4-4b1f-adca-13e460ed3aca",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Pending Tasks:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "d8e0f0d3-9f20-4006-8bc2-5baa08b843ba",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Ensure the user can locate the Space-level settings to verify or configure their required OIDC providers so that the \"Sign in\" flow actually succeeds.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "fec40437-05d3-467f-9a49-7df16ee14f0c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Current Work:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "14230912-7e55-4463-a62a-eb752ead25b2",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Investigating the configuration gap between the app's code (which is wired for auth) and the environment's space settings (which dictate which providers are available). I have just navigated the user to the Space overview.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "418b70aa-1db6-43de-bd8d-b49ffe35bba7",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Optional Next Step:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "7fcea915-0fca-453b-a459-a3091a89bff9",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Guide the user specifically to the \"Settings\" > \"Authentication\" (or equivalent) section within the Space settings to confirm the OIDC provider configurations, as the user noted: \"is not working and this is m telkling you for the 6th time\". I will focus on helping them locate the specific settings that enable the login providers they expect.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "25ae260d-2090-4106-8e5d-40582f86fa81",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-05 19:53 UTC - Build completed: 2 steps done",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "5a99e80e-e992-4df3-bf02-26c38796c07e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Build completed: 2 steps done",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "982dd441-f610-48b3-97e7-62f61ec06930",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Steps completed:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "519e656b-6a73-43a9-9a67-3787f6a8c469",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Diagnose why login is broken",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "e44e5254-f63b-4989-a2ae-f017e462a89d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Fix the auth/login flow",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "85d166d2-a483-4f19-a89e-356cffc86e42",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Projects: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Gap Reports",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/5v8SA9vNtWTzuUvD"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Expert Personas",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/768b18muzcAgSij3"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Document Health Logs",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/wtQagNdP1BqiyUXL"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Knowledge Base",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/KYSzCgTcurCdkYoE"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Evidence & Linked Records",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/UAxXZgMSMecaF12o"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Documents",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/QWkTPc73ww2C8JDp"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "SA Leave Law & CSV Filing Knowledge Base",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/oQdvzJ6cBkCPCasG"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Liability Audit Log",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/fmH5r52F8bTY4Qob"
+                          }
+                        },
+                        {
+                          "insert": " and 1 more",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ca541ec0-5084-4364-a1ae-bdf2abfdba49",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Agents: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Style & Compliance Agent",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQHVEHXHJ87WN950F70WNY"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Research & Evidence Agent",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQHKE870D864D79ZVWG9GW"
+                          }
+                        },
+                        {
+                          "insert": ", Gap Analyzer, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Style & Compliance Editor",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQD4A0F1M66XV0249SZ75M"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Research & Evidence",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQCR0S2DF9XQHSGX0QMGJ2"
+                          }
+                        },
+                        {
+                          "insert": ", Gap Analyzer, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Expert AI Assistant",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPPNH1CXBPSVY36JSDA2VWD"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Leave Data & Compliance Helper",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWN7KVDXGPJN72JJWYF26718"
+                          }
+                        },
+                        {
+                          "insert": " and 1 more",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "62359afc-9f46-40c1-8557-e3e8354410ba",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Flows: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Weekly ZAR Liability Digest",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWQDG8ZSJCNA8YT57B50G66H"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Knowledge Compounding on Final",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT49C1T6HSMJRX904CV9XZ"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Weekly Document Health Scan",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT466NCTHRBW5FXP8EY0ZQ"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Daily Document Health Update",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT42D437E7JZGWK321EYRS"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "NKANGALA ZAR Liability Audit",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWMW3G6NAK7DQS4ED02ZSCPT"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "2bf4a1cd-d591-44c9-b963-2e7d39e95fef",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-05 10:55 UTC - Build completed: 3 steps done",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "fcca8a41-6117-405a-b5f9-a214c44cdec1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Build completed: 3 steps done",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "96a5aff2-e396-4845-b606-106388c6b3b9",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Steps completed:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "0120b817-10b6-4b5e-acc3-301fb6df8bd7",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Fix DocumentChatPanel — replace all generic bg-primary/text-primary with forest green and gold municipal colors",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "76bfd9f5-e595-431b-9cfe-600c4ba81b08",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Fix GapReportsPanel/EvidencePanel/KnowledgeBasePanel — municipal styling for empty states, cards, and search inputs",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "7003f863-91ae-415b-9ccb-47d4e069a71b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Final design-review pass over all pages",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "81560699-b1e7-462a-9d8d-22f7a572d5ad",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Projects: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Gap Reports",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/5v8SA9vNtWTzuUvD"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Expert Personas",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/768b18muzcAgSij3"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Document Health Logs",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/wtQagNdP1BqiyUXL"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Knowledge Base",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/KYSzCgTcurCdkYoE"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Evidence & Linked Records",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/UAxXZgMSMecaF12o"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Documents",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/QWkTPc73ww2C8JDp"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "SA Leave Law & CSV Filing Knowledge Base",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/oQdvzJ6cBkCPCasG"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Liability Audit Log",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/fmH5r52F8bTY4Qob"
+                          }
+                        },
+                        {
+                          "insert": " and 1 more",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fd232101-83bb-4a7e-be5e-439958c7e162",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Agents: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Style & Compliance Agent",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQHVEHXHJ87WN950F70WNY"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Research & Evidence Agent",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQHKE870D864D79ZVWG9GW"
+                          }
+                        },
+                        {
+                          "insert": ", Gap Analyzer, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Style & Compliance Editor",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQD4A0F1M66XV0249SZ75M"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Research & Evidence",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQCR0S2DF9XQHSGX0QMGJ2"
+                          }
+                        },
+                        {
+                          "insert": ", Gap Analyzer, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Expert AI Assistant",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPPNH1CXBPSVY36JSDA2VWD"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Leave Data & Compliance Helper",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWN7KVDXGPJN72JJWYF26718"
+                          }
+                        },
+                        {
+                          "insert": " and 1 more",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "292934a4-bd93-473b-b0e5-6b57b4419fb4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Flows: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Weekly ZAR Liability Digest",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWQDG8ZSJCNA8YT57B50G66H"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Knowledge Compounding on Final",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT49C1T6HSMJRX904CV9XZ"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Weekly Document Health Scan",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT466NCTHRBW5FXP8EY0ZQ"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Daily Document Health Update",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT42D437E7JZGWK321EYRS"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "NKANGALA ZAR Liability Audit",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWMW3G6NAK7DQS4ED02ZSCPT"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "daebf921-5d6a-4358-84f2-012933af7e2b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-04 20:33 UTC - Build completed: 6 steps done",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "8d339135-1b59-4bb1-bcee-37417cb05ab8",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Build completed: 6 steps done",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "bb95029c-d190-4d2d-8af2-f1d1b245bd5f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Steps completed:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "d3502e24-e800-4ff0-a4bb-36145c73ad9d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Overhaul index.css with Nkangala municipal color palette (lime top-bar, forest green primary, gold accent)",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "1685f922-ad9d-4b05-a607-fc7c6e419085",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Redesign App.tsx header to match reference (green top bar + white nav with gold hover)",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "8807a2cd-912b-40d5-bed9-93c19a7b938c",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Restyle KPI cards, ledger table, risk board, audit panel with municipal aesthetic",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "fd28b727-497d-4fc2-b879-e1bd4c60f031",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Restyle document workspace components to match",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f72933f8-7865-4a83-8aa4-d5ee3edf629a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Update form dialogs, CSV import, agent chat panel styling",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "faa909ff-fecc-4afb-95d1-a1aa02b28d8d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Verify build compiles and design-review each page",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "e94cbdeb-14ad-4ba5-b933-32421d5bde4b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Projects: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Gap Reports",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/5v8SA9vNtWTzuUvD"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Expert Personas",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/768b18muzcAgSij3"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Document Health Logs",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/wtQagNdP1BqiyUXL"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Knowledge Base",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/KYSzCgTcurCdkYoE"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Evidence & Linked Records",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/UAxXZgMSMecaF12o"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Documents",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/QWkTPc73ww2C8JDp"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "SA Leave Law & CSV Filing Knowledge Base",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/oQdvzJ6cBkCPCasG"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Liability Audit Log",
+                          "attributes": {
+                            "link": "https://www.taskade.com/d/fmH5r52F8bTY4Qob"
+                          }
+                        },
+                        {
+                          "insert": " and 1 more",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c5743c27-af77-49b2-8f6c-1af905fb6209",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Agents: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Style & Compliance Agent",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQHVEHXHJ87WN950F70WNY"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Research & Evidence Agent",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQHKE870D864D79ZVWG9GW"
+                          }
+                        },
+                        {
+                          "insert": ", Gap Analyzer, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Style & Compliance Editor",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQD4A0F1M66XV0249SZ75M"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Research & Evidence",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPQCR0S2DF9XQHSGX0QMGJ2"
+                          }
+                        },
+                        {
+                          "insert": ", Gap Analyzer, ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Expert AI Assistant",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWPPNH1CXBPSVY36JSDA2VWD"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Leave Data & Compliance Helper",
+                          "attributes": {
+                            "link": "https://www.taskade.com/agent/01KWN7KVDXGPJN72JJWYF26718"
+                          }
+                        },
+                        {
+                          "insert": " and 1 more",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "8e5a4d52-6e59-4348-946f-02fb3631f0c4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Flows: ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Knowledge Compounding on Final",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT49C1T6HSMJRX904CV9XZ"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Weekly Document Health Scan",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT466NCTHRBW5FXP8EY0ZQ"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Daily Document Health Update",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWPT42D437E7JZGWK321EYRS"
+                          }
+                        },
+                        {
+                          "insert": ", ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "NKANGALA ZAR Liability Audit",
+                          "attributes": {
+                            "link": "https://www.taskade.com/flows/01KWMW3G6NAK7DQS4ED02ZSCPT"
+                          }
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "d35af872-6f2a-425b-a0c0-225238a5b391",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-04 20:28 UTC - Primary Request and Intent",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "e5d2e47d-0608-494e-8329-c4fbb3d926b2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Primary Request and Intent:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "17400698-a19b-4d53-a53c-2f5274530980",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Fix a login redirect loop occurring during authentication.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "d91fa780-5721-4ca5-a2e8-ca5f8c774528",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Perform a complete visual UI/UX overhaul of the application to match the Nkangala District Municipality website (official colors: bright lime green, forest green, gold/amber).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "c90ce95b-f349-4c2e-b516-50846cb7afc9",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Maintain full application functionality while strictly adhering to the specified design system.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "03192247-89f6-43b7-9180-9ab896474173",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Files and Code Sections:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "a0fbb264-bcca-450d-9ec7-9f6e6eb754c9",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/index.css: Overhauled with new CSS variables (--topbar-green, --gold, --forest).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "c5faca18-692e-45dd-9ace-85d3643f1292",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/App.tsx: Redesigned the header structure to include a top utility bar and a white municipal-style header.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "d054f7e0-3bed-4f10-bd38-155f5f1ff29a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/components/leave/KpiCards.tsx: Updated to use branded cards with border-top accents and gold color logic.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "0b4106a2-665f-4b00-833f-3248e7c88f80",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/components/leave/LedgerTable.tsx: Added professional table styling, consistent with institutional dashboards.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "21119a1a-3f38-460a-9d6a-80ce7d884c76",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/genesis-auth.tsx: Added onSigninCallback to fix the OIDC loop.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "6c1d2a13-49aa-49fb-b639-57f3774184f6",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Errors and fixes:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "cf001517-4b2e-41c6-870e-2c4ae2d34421",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Login Loop:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " AuthProvider was missing onSigninCallback, causing a full page reload after redirect. Fixed by adding onSigninCallback={() => { window.history.replaceState({}, document.title, window.location.pathname); }}.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "234fa77a-2ca3-4aa5-9ac5-b7132f630f46",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Design Inconsistency:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Initial UI used generic colors. Fixed by extracting hex codes and matching them to CSS custom properties based on visual analysis of the NDM website.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "5364f578-89a1-47eb-b026-34eb288ffed4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Problem Solving:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "e8b700d7-f6fb-4b47-9087-8376c2fe94ac",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Identified that the OIDC login page is platform-controlled and cannot be styled by the app bundle.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "21d60ca1-cade-4deb-afe7-d02c0dc10890",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Successfully mapped the municipal aesthetic (forest/olive/gold) into the Tailwind/CSS architecture.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "c9396dc6-ebd8-455c-8d22-11fb7d782221",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "All user messages:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "8a3cfcf1-dbe3-4003-b336-9d5f8ef91b44",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"the login is in a loop\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "debc27f2-5ef7-45cc-9993-ded9960d8ff8",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"can we keep the team trough all the ui/ux pages Apply the exact visual design system and look & feel of the Nkangala District Municipality website... to the following application.\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "62038011-78c0-4a7a-9124-b95aa8ddb7e7",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"this page is not bran orentyted ",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "https://ndm-leave-liability.taskade.site/_genesis/auth/realms/clr8slhpxirn8c7p/interaction/tkPzciI_hEkCoDvj9OpV0lZH3gKezYhyABBOOyEAgPo",
+                              "attributes": {
+                                "link": "https://ndm-leave-liability.taskade.site/_genesis/auth/realms/clr8slhpxirn8c7p/interaction/tkPzciI_hEkCoDvj9OpV0lZH3gKezYhyABBOOyEAgPo"
+                              }
+                            },
+                            {
+                              "insert": " fix it\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "f221b888-3826-49e4-8602-2bfb937a7c3a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Pending Tasks:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "9746685b-f74a-49b4-966b-35ebce68e1dc",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Restyle remaining components: Document Workspace, Form Dialogs, CsvImportDialog, and AgentChatPanel.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "715220e2-313a-40b1-a4be-1c5e514a1f1d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Final visual review and build verification.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "da731706-031d-4322-94a8-90b1674bafac",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Current Work:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "48780f24-f83c-41d5-a0c7-c3a483c04f53",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Working on \"Updating forms and dialogs\" (part of the global visual overhaul) and finishing the styling for document-related components.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "8ccfe898-764d-4527-bfc8-7102308588cd",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Optional Next Step:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "4889e950-3b0c-4267-8d68-9dd8d958d9a9",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Resume applying the municipal design system to the DocumentWorkspace.tsx and related document components, ensuring they align with the styles defined in index.css.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "b87e487c-c850-41fd-937b-beedd869d138",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Explicit task: \"Update form dialogs, CSV import, agent chat panel styling\".",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "486675b6-5a24-4415-8c3a-a86bf1584efc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Knowledge",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "84265006-522a-4987-b804-a92f9751c481",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-06 03:57 UTC - Key Technical Concepts",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "adea4a27-ba5b-4b45-807c-40c0d1ee2484",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "ab5c8ea8-2a5a-4d01-a5df-c9ea34e785b5",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "OIDC (OpenID Connect):",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " The authentication framework used by the app.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "73d3f413-0691-4741-ab04-05905980b070",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "react-oidc-context:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " The library managing the authentication state within the React app.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "7b225a47-178e-4f78-a204-f48e142e7737",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "GenesisAuth component:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " A custom wrapper for the OIDC AuthProvider that handles discovery and redirection.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f0056def-a562-4b2e-9d65-59c74d23ee8b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "GatewayAuthSync:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " A utility that injects an id_token into network requests (fetch/XHR) to the Taskade data gateway for row-level security.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "7bb153e0-f735-493a-af9b-9ad26e53d543",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Space Settings:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " The platform-level configuration where OIDC identity providers are defined and enabled.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "d2477dee-66b3-4631-81d4-b7aab06db88a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-04 20:28 UTC - Key Technical Concepts",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "36ae2246-0dd3-4852-b92a-981b3632b31a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "e2b4d17d-bf66-46ed-ba4b-3b295293beca",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "OIDC Authentication:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Implemented via react-oidc-context with custom GenesisAuth wrapper.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f2e4b4a9-036b-4958-a4cd-0ab517009afd",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Tailwind CSS Theming:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Overwrote CSS variables in index.css to define the municipal palette.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "749870d9-196e-4cb6-8a16-e27e05b7a70f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Component-Based Styling:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Applying utility classes to shadcn/ui components to enforce the design system.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "ba3be846-8957-4228-a75d-26cb154d376b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Genesis Data SDK:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Handling row-level data fetching and persistence in a Taskade-integrated app.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-04 19:15 UTC — Phase 2 Design Review Findings",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "b2c3d4e5-f678-90ab-cdef-123456789012",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "App Architecture",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": Single-page app with two tabs (Leave Liability + Document Workspace). Auth gate via GenesisAuth/OIDC with branded loading screen. Server-side row scoping on Employee Leave Ledger via Owner ID field.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c3d4e5f6-7890-abcd-ef12-345678901234",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "State Management",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": Zustand store (useLedgerStore) with stale-request token pattern to prevent stale data from clobbering fresh fetches. Sync isAuditing/isImporting guards prevent double-fires. No persistence middleware needed — data lives in Taskade projects, fetched fresh each session.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "d4e5f678-90ab-cdef-1234-567890123456",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Agent Chat Pattern",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": SDK v2 two-component split: createConversation + createAgentChat. useChat from @ai-sdk/react only receives a real Chat instance. Generic AgentChatBody parameterized by AgentChatConfig enables multiple agents without code duplication.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e5f67890-abcd-ef12-3456-7890123456ab",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Theme Tokens",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": All styling uses semantic CSS variables (--primary, --accent, --destructive, etc.), never fixed hues. Dark mode is the same scene relit, not a redesign. Chart colors use --chart-1 through --chart-5 for Recharts integration.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "f67890ab-cdef-1234-5678-9012345678cd",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Projects",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": Employee Leave Ledger (qQEiUbSedm69y2S8), Liability Audit Log (fmH5r52F8bTY4Qob), Documents (QWkTPc73ww2C8JDp), Evidence (UAxXZgMSMecaF12o), Knowledge Base (KYSzCgTcurCdkYoE), Document Health Logs (wtQagNdP1BqiyUXL), Expert Personas (768b18muzcAgSij3), Gap Reports (5v8SA9vNtWTzuUvD), SA Leave Law Knowledge Base (oQdvzJ6cBkCPCasG).",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7890abcd-ef12-3456-7890-1234567890ef",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Flows",
+                          "attributes": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "insert": ": NKANGALA ZAR Liability Audit (01KWMW3G6NAK7DQS4ED02ZSCPT), Daily Document Health Update (01KWPT42D437E7JZGWK321EYRS), Weekly Document Health Scan (01KWPT466NCTHRBW5FXP8EY0ZQ), Knowledge Compounding on Final (01KWPT49C1T6HSMJRX904CV9XZ).",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "bullet",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "0cfe4d7e-adec-49e6-9e5e-9c28efd7d4f9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-04 18:57 UTC - Key Technical Concepts",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "6b3a137d-c079-4ddb-8d93-2933903307a4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "97f95877-8dbc-4b8f-9798-61fda6e520eb",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "100/100 Production Readiness Rubric.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "3fb92060-d1ed-4592-ad4a-9ad7216c89aa",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Genesis OIDC Auth (GenesisAuth, AuthGate).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "55e419a2-d994-418b-aa7c-05bc66bfe5b7",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Server-side row scoping (enable_private_per_user_data).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "63e08865-afa5-4fc4-ba5c-b1726bc250ca",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "React ErrorBoundary pattern.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "e6156d41-79b3-426f-a16c-56cf16e20944",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Tailwind CSS custom theme configuration.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "705fb55a-5326-4c40-9754-1e33364cda27",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Grounded LLM system prompts for specific Taskade projects.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "3d31d60e-6692-437d-9210-c38ef4a3b58e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-04 16:51 UTC - Key Technical Concepts",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "397519f8-1efd-4cd6-b4a8-8296007e4bd7",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "a1d22fe5-370e-45d5-bef0-72ef7e10e695",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "100/100 Production Readiness Rubric.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "4cdd37e8-3b0d-4e96-ab64-6b68aa5b07a2",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Genesis OIDC Auth (GenesisAuth, AuthGate).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "a110842b-c61e-4ce5-b642-754f63dd7d36",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Server-side row scoping (enable_private_per_user_data) based on ownerId.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "fd2cdc43-ec09-41a0-891b-1fc76265f907",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "React SPA routing, shared layouts (ProtectedApp vs AuthGate).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🗓️"
+    },
+    "coverImageType": "background",
+    "background": {
+      "data": {
+        "value": "bg-random"
+      },
+      "type": "default"
+    }
+  },
+  "pinnedAt": "2026-07-04T13:16:04.019Z"
+}

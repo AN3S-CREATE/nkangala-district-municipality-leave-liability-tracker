@@ -1,0 +1,71 @@
+{
+  "version": "2",
+  "flowTitle": "Weekly ZAR Liability Digest",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Monday Morning",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "Africa/Johannesburg",
+        "dayOfWeek": [
+          "Monday"
+        ],
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "d6230653-903d-41f4-9ceb-010f0ceaaaa5",
+      "valid": true,
+      "displayName": "Fetch Ledger Data",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-http",
+        "pieceVersion": "1.0.0",
+        "actionName": "http.sendRequest",
+        "input": {
+          "url": "https://nkangala-district-municipality-leave-liability-tracker-9825.taskade.app/api/taskade/projects/qQEiUbSedm69y2S8/nodes",
+          "method": "GET",
+          "bodyType": "none",
+          "responseType": "json"
+        }
+      }
+    },
+    {
+      "name": "93aab315-95c6-42aa-85d4-cc050c7b91f7",
+      "valid": true,
+      "displayName": "Generate Digest",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "prompt": "You are the ZAR Liability Auditor for NKANGALA District Municipality. Below is the full Employee Leave Ledger data as JSON. Each employee record contains: Employee ID, Employee Name, Provisioning Liability ZAR, Liability Status (Critical Debt or Optimal), Cost Centre / Division, Closing Balance, Daily Rate ZAR, Opening Balance, Less Taken, Accrual Rate, Less Forf/Payouts.\n\nGenerate a concise weekly ZAR Leave Liability Digest for the Municipal Manager covering:\n\n1. **Total ZAR Liability Exposure** — sum all Provisioning Liability ZAR values, formatted as Rxxx,xxx.00.\n2. **Top 5 Highest-Liability Employees** — name, Employee ID, Cost Centre, and ZAR amount for each.\n3. **Liability by Cost Centre / Division** — group by division, sum each, show share of total as %.\n4. **Risk Snapshot** — count Critical Debt vs Optimal employees.\n5. **Recommended Actions** — 2-3 specific enforcement actions (e.g. \"Enforce mandatory leave for top 3 in Infrastructure\").\n\nKeep it under 400 words. Professional, direct tone. Use ONLY the data provided — never invent figures. Use South African Rand formatting throughout.\n\n---\n\n{{ d6230653-903d-41f4-9ceb-010f0ceaaaa5[\"data\"] }}",
+          "outputType": "plaintext"
+        }
+      }
+    },
+    {
+      "name": "07031eb1-9bf2-4b5d-b5b6-73a31d60d897",
+      "valid": true,
+      "displayName": "Email Digest to Municipal Manager",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "notify.email",
+        "input": {
+          "body": "{{ 93aab315-95c6-42aa-85d4-cc050c7b91f7[\"result\"] }}",
+          "subject": "Weekly ZAR Leave Liability Digest — {{ trigger[\"triggerTime\"] }}",
+          "recipientEmail": "vanzylr@nkangaladm.gov.za"
+        }
+      }
+    }
+  ]
+}

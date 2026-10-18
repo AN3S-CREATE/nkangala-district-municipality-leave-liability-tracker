@@ -1,0 +1,71 @@
+{
+  "version": "2",
+  "flowTitle": "Knowledge Compounding on Final",
+  "trigger": {
+    "valid": false,
+    "displayName": "When Document Status Changes",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.custom_attribute_updated",
+      "input": {
+        "fieldId": "@st4us",
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "QWkTPc73ww2C8JDp"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
+      "valid": true,
+      "displayName": "Extract learnings with AI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "model": "openai/gpt-5.4-mini",
+          "prompt": "A document has just been finalised. Extract the key lessons and patterns from this document that should be preserved in the Knowledge Base for future reference. Summarise: 1) What made this document successful, 2) Key structural patterns worth reusing, 3) Any pitfalls or lessons learned, 4) Recommended template improvements. Keep the output concise - 5-7 bullet points max."
+        }
+      }
+    },
+    {
+      "name": "b2c3d4e5-f678-90ab-cdef-1234567892",
+      "valid": false,
+      "displayName": "Save to Knowledge Base",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "{{ a1b2c3d4-e5f6-7890-abcd-ef1234567891[\"result\"] }}",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "KYSzCgTcurCdkYoE"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "QWkTPc73ww2C8JDp": {
+      "id": "QWkTPc73ww2C8JDp",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "KYSzCgTcurCdkYoE": {
+      "id": "KYSzCgTcurCdkYoE",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

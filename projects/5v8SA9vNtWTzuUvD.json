@@ -1,0 +1,995 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "35337c34-8cf0-4735-9713-a7344b5189eb",
+        "text": {
+          "ops": [
+            {
+              "insert": "Gap Reports"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "604f41ff-cd71-40b1-996b-4a67e1497e91",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Q3 Financial Report - Missing MFMA S71 annexures",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@doc": "Q3 Financial Compliance Report",
+              "@sev": {
+                "type": "Select",
+                "optionId": "crit"
+              },
+              "@gap": "Section 5 lacks mandatory MFMA Section 71 monthly reporting schedules. Without these, the AG will issue a qualified opinion.",
+              "@sectn": "Section 5: Supporting Schedules",
+              "@type": {
+                "type": "Select",
+                "optionId": "missing"
+              },
+              "@sugg": "Insert MFMA S71 schedules for July-September 2025 with comparative prior-year figures.",
+              "@status": {
+                "type": "Select",
+                "optionId": "open"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "cb2c0ae7-eaf1-489e-9617-5ecea67c404c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Leave Policy - Outdated BCEA reference",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@doc": "Employee Leave Policy v3",
+              "@sev": {
+                "type": "Select",
+                "optionId": "high"
+              },
+              "@gap": "Clause 8.3 cites 'Basic Conditions of Employment Act 1997' without referencing the 2025 amendment that changed leave accrual calculations.",
+              "@sectn": "Clause 8.3",
+              "@type": {
+                "type": "Select",
+                "optionId": "outdate"
+              },
+              "@sugg": "Update citation to 'BCEA 75 of 1997 as amended by Act 12 of 2025'. Recalculate accrual examples per amended formula.",
+              "@status": {
+                "type": "Select",
+                "optionId": "open"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c4e1d2a7-3f41-4a89-815f-39823ea4f702",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Infrastructure RFP - Scope of Works is placeholder",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@doc": "Infrastructure Tender RFP 2026",
+              "@sev": {
+                "type": "Select",
+                "optionId": "crit"
+              },
+              "@gap": "Scope of Works section contains 'TBD' and placeholder text. Without measurable deliverables, the tender cannot be published.",
+              "@sectn": "Scope of Works",
+              "@type": {
+                "type": "Select",
+                "optionId": "missing"
+              },
+              "@sugg": "Define at minimum: project location, technical specifications, quantities, timelines, and acceptance criteria.",
+              "@status": {
+                "type": "Select",
+                "optionId": "open"
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@doc": {
+            "id": "/attributes/@doc",
+            "fieldPath": "/attributes/@doc",
+            "rank": "z"
+          },
+          "/attributes/@sev": {
+            "id": "/attributes/@sev",
+            "fieldPath": "/attributes/@sev",
+            "rank": "zV"
+          },
+          "/attributes/@gap": {
+            "id": "/attributes/@gap",
+            "fieldPath": "/attributes/@gap",
+            "rank": "zk"
+          },
+          "/attributes/@sectn": {
+            "id": "/attributes/@sectn",
+            "fieldPath": "/attributes/@sectn",
+            "rank": "zs"
+          },
+          "/attributes/@type": {
+            "id": "/attributes/@type",
+            "fieldPath": "/attributes/@type",
+            "rank": "zw"
+          },
+          "/attributes/@sugg": {
+            "id": "/attributes/@sugg",
+            "fieldPath": "/attributes/@sugg",
+            "rank": "zy"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zz"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@doc": {
+            "id": "/attributes/@doc",
+            "fieldPath": "/attributes/@doc",
+            "rank": "z"
+          },
+          "/attributes/@sev": {
+            "id": "/attributes/@sev",
+            "fieldPath": "/attributes/@sev",
+            "rank": "zV"
+          },
+          "/attributes/@gap": {
+            "id": "/attributes/@gap",
+            "fieldPath": "/attributes/@gap",
+            "rank": "zk"
+          },
+          "/attributes/@sectn": {
+            "id": "/attributes/@sectn",
+            "fieldPath": "/attributes/@sectn",
+            "rank": "zs"
+          },
+          "/attributes/@type": {
+            "id": "/attributes/@type",
+            "fieldPath": "/attributes/@type",
+            "rank": "zw"
+          },
+          "/attributes/@sugg": {
+            "id": "/attributes/@sugg",
+            "fieldPath": "/attributes/@sugg",
+            "rank": "zy"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zz"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@doc": {
+            "id": "/attributes/@doc",
+            "fieldPath": "/attributes/@doc",
+            "rank": "z"
+          },
+          "/attributes/@sev": {
+            "id": "/attributes/@sev",
+            "fieldPath": "/attributes/@sev",
+            "rank": "zV"
+          },
+          "/attributes/@gap": {
+            "id": "/attributes/@gap",
+            "fieldPath": "/attributes/@gap",
+            "rank": "zk"
+          },
+          "/attributes/@sectn": {
+            "id": "/attributes/@sectn",
+            "fieldPath": "/attributes/@sectn",
+            "rank": "zs"
+          },
+          "/attributes/@type": {
+            "id": "/attributes/@type",
+            "fieldPath": "/attributes/@type",
+            "rank": "zw"
+          },
+          "/attributes/@sugg": {
+            "id": "/attributes/@sugg",
+            "fieldPath": "/attributes/@sugg",
+            "rank": "zy"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zz"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@doc": {
+            "id": "/attributes/@doc",
+            "fieldPath": "/attributes/@doc",
+            "rank": "z"
+          },
+          "/attributes/@sev": {
+            "id": "/attributes/@sev",
+            "fieldPath": "/attributes/@sev",
+            "rank": "zV"
+          },
+          "/attributes/@gap": {
+            "id": "/attributes/@gap",
+            "fieldPath": "/attributes/@gap",
+            "rank": "zk"
+          },
+          "/attributes/@sectn": {
+            "id": "/attributes/@sectn",
+            "fieldPath": "/attributes/@sectn",
+            "rank": "zs"
+          },
+          "/attributes/@type": {
+            "id": "/attributes/@type",
+            "fieldPath": "/attributes/@type",
+            "rank": "zw"
+          },
+          "/attributes/@sugg": {
+            "id": "/attributes/@sugg",
+            "fieldPath": "/attributes/@sugg",
+            "rank": "zy"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zz"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@doc": {
+            "id": "/attributes/@doc",
+            "fieldPath": "/attributes/@doc",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sev": {
+            "id": "/attributes/@sev",
+            "fieldPath": "/attributes/@sev",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@gap": {
+            "id": "/attributes/@gap",
+            "fieldPath": "/attributes/@gap",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sectn": {
+            "id": "/attributes/@sectn",
+            "fieldPath": "/attributes/@sectn",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@type": {
+            "id": "/attributes/@type",
+            "fieldPath": "/attributes/@type",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@sugg": {
+            "id": "/attributes/@sugg",
+            "fieldPath": "/attributes/@sugg",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zz",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@doc": {
+            "id": "/attributes/@doc",
+            "fieldPath": "/attributes/@doc",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@sev": {
+            "id": "/attributes/@sev",
+            "fieldPath": "/attributes/@sev",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@gap": {
+            "id": "/attributes/@gap",
+            "fieldPath": "/attributes/@gap",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@sectn": {
+            "id": "/attributes/@sectn",
+            "fieldPath": "/attributes/@sectn",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@type": {
+            "id": "/attributes/@type",
+            "fieldPath": "/attributes/@type",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@sugg": {
+            "id": "/attributes/@sugg",
+            "fieldPath": "/attributes/@sugg",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zz",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@doc": {
+        "type": "string",
+        "displayName": "Document"
+      },
+      "@sev": {
+        "type": "Select",
+        "displayName": "Severity",
+        "options": {
+          "crit": {
+            "id": "crit",
+            "name": "🔴 Critical",
+            "color": "#DC2626",
+            "rank": "0"
+          },
+          "high": {
+            "id": "high",
+            "name": "🟠 High",
+            "color": "#F59E0B",
+            "rank": "1"
+          },
+          "med": {
+            "id": "med",
+            "name": "🟡 Medium",
+            "color": "#2563EB",
+            "rank": "2"
+          },
+          "low": {
+            "id": "low",
+            "name": "🟢 Low",
+            "color": "#10B981",
+            "rank": "3"
+          }
+        }
+      },
+      "@gap": {
+        "type": "string",
+        "displayName": "Gap Description"
+      },
+      "@sectn": {
+        "type": "string",
+        "displayName": "Section"
+      },
+      "@type": {
+        "type": "Select",
+        "displayName": "Gap Type",
+        "options": {
+          "missing": {
+            "id": "missing",
+            "name": "Missing Content",
+            "color": "#DC2626",
+            "rank": "0"
+          },
+          "outdate": {
+            "id": "outdate",
+            "name": "Outdated Reference",
+            "color": "#F59E0B",
+            "rank": "1"
+          },
+          "incons": {
+            "id": "incons",
+            "name": "Inconsistency",
+            "color": "#7C3AED",
+            "rank": "2"
+          },
+          "comply": {
+            "id": "comply",
+            "name": "Compliance Risk",
+            "color": "#4F46E5",
+            "rank": "3"
+          },
+          "clarity": {
+            "id": "clarity",
+            "name": "Clarity Issue",
+            "color": "#2563EB",
+            "rank": "4"
+          }
+        }
+      },
+      "@sugg": {
+        "type": "string",
+        "displayName": "Suggested Fix"
+      },
+      "@status": {
+        "type": "Select",
+        "displayName": "Resolution",
+        "options": {
+          "open": {
+            "id": "open",
+            "name": "Open",
+            "color": "#DC2626",
+            "rank": "0"
+          },
+          "inprog": {
+            "id": "inprog",
+            "name": "In Progress",
+            "color": "#F59E0B",
+            "rank": "1"
+          },
+          "resolved": {
+            "id": "resolved",
+            "name": "Resolved",
+            "color": "#10B981",
+            "rank": "2"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "✨"
+    }
+  }
+}

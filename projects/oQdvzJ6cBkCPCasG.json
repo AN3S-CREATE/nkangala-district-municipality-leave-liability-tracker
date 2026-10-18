@@ -1,0 +1,754 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "de6fc8dc-a370-4944-b648-ebc85ff887e9",
+        "text": {
+          "ops": [
+            {
+              "insert": "SA Leave Law & CSV Filing Knowledge Base"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "9cb22276-d28b-4589-8912-a42f695c44b5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "BCEA Annual Leave Basics",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "992f4820-ca7f-445f-a81d-b6eb0eff45f7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Under the Basic Conditions of Employment Act (BCEA), employees earn a minimum of 21 consecutive days (15 working days) of annual leave per completed 12-month leave cycle, or 1 day for every 17 days worked.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ecdc8d0d-6acc-44b2-aab0-1ff575ac9a26",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Leave must be granted within 6 months after the end of the leave cycle in which it accrued. An employer may not pay an employee instead of granting leave, except on termination.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b9533cf9-9ce7-4a55-a6fb-595818e60dcf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Leave accrues progressively during the cycle and does not need to be granted less than 4 consecutive weeks at a time unless the employee agrees otherwise.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "662ae89e-4d7c-4d98-abd1-63b787977d9f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sick Leave & Other Statutory Leave",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "082ed975-0779-4b62-b311-869408d4c9e6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sick leave cycle is 36 months. Within that cycle, an employee is entitled to paid sick leave equal to the number of days they would normally work in 6 weeks.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "01987136-2cc4-48a3-a375-7bddbe0e70d8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Family responsibility leave: 3 days paid per annual cycle for employees who have worked longer than 4 months, for birth, illness of a child, or death of close family.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d0cf2658-79c5-459c-a56f-87351661b71d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Maternity leave is 4 consecutive months unpaid by the employer (UIF may cover a portion); parental leave for other parents is 10 consecutive days.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "fb49c929-6d07-43d3-831d-2d22cd3de842",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Leave Payout & Termination Rules",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "6b979de0-469a-4c53-9edf-97cbf217c202",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "On termination of employment, an employer must pay out accrued but untaken annual leave in full, calculated at the employee's normal daily rate.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "24fe4970-23fe-4fb9-a8d4-bec39ef7bd49",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Forfeiture: leave lawfully forfeited (e.g. not taken within the 6-month grace window, per employer policy) reduces the Provisioning Liability but must be documented — this is what the 'Less Forf / Payouts' column captures in the ledger.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "79ac27cc-0555-4176-8bbb-fc586876e5c0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Municipal leave liability provisioning: municipalities must carry accrued leave pay as a balance-sheet liability (GRAP 103 / IAS 19 equivalent) — this is why unchecked leave balances above R50,000 are flagged Critical Debt in this system.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b984c47d-ec44-4c10-9bb8-7f67822e5e26",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Record-Keeping & Filing Requirements",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "bebf8d74-d20e-4d20-9462-0f9c903f6365",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "The BCEA requires employers to keep a record of each employee's leave taken and leave pay for at least 3 years.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d0cc120c-9787-4ccc-b033-a91c8e073eb3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Municipal HR units typically file leave records per financial year (1 July - 30 June) to align with MFMA reporting cycles, and reconcile the leave liability register quarterly for audit purposes.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8a603f53-999b-4036-864a-e4a6edc1a62b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Each employee's Employee ID should map to the municipality's persal / payroll number for cross-referencing during an Auditor-General (AGSA) audit.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "cf792240-98eb-4b7a-a59a-888be85ebde6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "How to Prepare a CSV Import for This App",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "f47f2132-c42f-4d9c-be44-6c2fccf9e9b0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Required columns, in order: Employee ID, Employee Name, Cost Centre / Division, Daily Rate ZAR, Opening Bal, Accrual Rate, Less Taken, Less Forf / Payouts.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5fdb5e73-cedb-444c-833d-924d75a43950",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Cost Centre / Division must match one of the seven municipal divisions exactly: Office of the Municipal Manager, Corporate Services, Budget & Treasury, Community Services, Technical Services, Infrastructure Planning & Development, Local Economic Development & Tourism.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7342ef45-046f-445b-8f32-fbdc57460301",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Daily Rate ZAR, Opening Bal, Accrual Rate, Less Taken, and Less Forf / Payouts must all be plain numbers with no currency symbols, commas, or spaces (e.g. 850.50, not R850.50 or 850,50).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "701f86a9-ead7-438d-a261-a5cb1b6343ca",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Provisioning Liability ZAR is calculated automatically by the app as: (Opening Bal + Accrual Rate - Less Taken - Less Forf / Payouts) x Daily Rate ZAR. Do not include a liability column in the CSV.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d5d18418-c86e-45b2-8ba8-9f7e293b7599",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Save the file as UTF-8 CSV with a header row exactly matching the required column names, and use the Import CSV button in the app to upload it.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "4f4d90e4-22ca-4407-806a-c8b3c02b34ea",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Common Import Errors & Fixes",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "5b0edb95-c765-40d5-86ed-18bccedc214f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Row fails with a division error: the Cost Centre / Division text does not exactly match one of the seven approved division names — check spelling, capitalization, and remove any extra spaces.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "37fa2c52-bd2d-45c8-98b3-eee5c16c27d5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Row fails on a numeric column: a currency symbol, comma, or blank value was left in a numeric field. Clean the value to a plain number, or use 0 if genuinely zero.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f8b628f8-bf35-4fb4-b63b-1001c514d548",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Duplicate Employee ID: each row must have a unique Employee ID / persal number — merge or remove duplicate rows before importing.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "abe5de35-3d28-4755-ae2e-d8254c87d2e7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Some rows import but others fail: this is normal — the import runs row-by-row, so successful rows are kept and only the failing rows need to be fixed and re-imported.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "76ff0e71-c6d8-412f-8232-1b2b2dcbed34",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Import appears to do nothing when clicked twice quickly: the app deliberately blocks a second import while one is already running to prevent duplicate rows — wait for the first import to finish, then retry if needed.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "⚕️"
+    }
+  }
+}

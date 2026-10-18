@@ -1,0 +1,168 @@
+/* Tailwind CSS v3 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    color-scheme: light;
+    /* NKANGALA District Municipality — official palette
+       Top bar: bright olive-green (#8CB53F)
+       Primary: deep forest/emerald (#1B5E20 / hsl 145, 55%, 24%)
+       Accent: warm gold/amber (#E6A817 / hsl 42, 82%, 50%)
+       Content: clean white + dark charcoal */
+    --background: 40 15% 97%;
+    --foreground: 0 0% 15%;
+    --muted: 86 30% 93%;
+    --muted-foreground: 0 0% 40%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+
+    /* Primary: deep forest green — the main municipal brand color */
+    --primary: 145 55% 24%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: light olive tint — section backgrounds */
+    --secondary: 86 30% 94%;
+    --secondary-foreground: 0 0% 15%;
+
+    /* Accent: warm gold/amber — CTAs, hover, active states, highlights */
+    --accent: 42 82% 50%;
+    --accent-foreground: 0 0% 15%;
+
+    --destructive: 0 70% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --ring: 145 55% 24%;
+
+    --radius: 0.625rem;
+
+    /* Chart colors — municipal data viz */
+    --chart-1: 145 55% 24%;
+    --chart-2: 42 82% 50%;
+    --chart-3: 200 50% 40%;
+    --chart-4: 86 55% 42%;
+    --chart-5: 15 60% 42%;
+
+    /* Sidebar tokens */
+    --sidebar: 0 0% 100%;
+    --sidebar-foreground: 0 0% 15%;
+    --sidebar-primary: 145 55% 24%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 42 82% 50%;
+    --sidebar-accent-foreground: 0 0% 15%;
+    --sidebar-border: 0 0% 88%;
+    --sidebar-ring: 145 55% 24%;
+
+    /* Custom municipal tokens */
+    --topbar-green: 86 55% 45%;
+    --topbar-green-foreground: 0 0% 100%;
+    --gold: 42 82% 50%;
+    --gold-hover: 42 82% 45%;
+    --forest-dark: 145 55% 18%;
+    --forest: 145 55% 24%;
+    --forest-light: 145 40% 35%;
+
+    font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --background: 145 8% 6%;
+    --foreground: 40 15% 88%;
+    --muted: 145 6% 12%;
+    --muted-foreground: 40 8% 52%;
+    --popover: 145 8% 8%;
+    --popover-foreground: 40 15% 88%;
+    --border: 145 8% 16%;
+    --input: 145 8% 16%;
+    --card: 145 8% 9%;
+    --card-foreground: 40 15% 88%;
+
+    --primary: 145 50% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 145 6% 14%;
+    --secondary-foreground: 40 15% 88%;
+
+    --accent: 42 82% 50%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 55% 44%;
+    --destructive-foreground: 40 15% 94%;
+
+    --ring: 145 50% 45%;
+
+    --chart-1: 145 50% 45%;
+    --chart-2: 42 82% 50%;
+    --chart-3: 200 50% 52%;
+    --chart-4: 86 50% 48%;
+    --chart-5: 15 55% 50%;
+
+    --sidebar: 145 8% 7%;
+    --sidebar-foreground: 40 15% 88%;
+    --sidebar-primary: 145 50% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 42 82% 45%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 145 8% 15%;
+    --sidebar-ring: 145 50% 45%;
+
+    --topbar-green: 86 45% 35%;
+    --topbar-green-foreground: 0 0% 100%;
+    --gold: 42 82% 50%;
+    --gold-hover: 42 82% 42%;
+    --forest-dark: 145 40% 14%;
+    --forest: 145 50% 40%;
+    --forest-light: 145 45% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Full screen spinner styles */
+.genesis__spinner-container {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.genesis__spinner-ring {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid transparent;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  animation: genesis__spin 1s linear infinite;
+}
+
+@keyframes genesis__spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .genesis__spinner-ring {
+    animation: none;
+    border-top-color: rgba(255, 255, 255, 0.9);
+  }
+}

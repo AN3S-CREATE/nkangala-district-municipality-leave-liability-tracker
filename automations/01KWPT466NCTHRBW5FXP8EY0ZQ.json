@@ -1,0 +1,148 @@
+{
+  "version": "2",
+  "flowTitle": "Weekly Document Health Scan",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Monday at 9 AM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "Africa/Johannesburg",
+        "dayOfWeek": [
+          "Monday"
+        ],
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "d4e5f678-90ab-cdef-1234-567890abcdef",
+      "valid": false,
+      "displayName": "Find all documents",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "tasks.find",
+        "input": {
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "QWkTPc73ww2C8JDp"
+          },
+          "rowsToReturn": "all_matching_rows",
+          "noTasksFoundBehavior": "continue"
+        }
+      }
+    },
+    {
+      "name": "h890abcd-ef12-3456-7890-abcdef012345",
+      "valid": true,
+      "displayName": "Documents found?",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "i901bcde-f123-4567-890a-bcdef0123456",
+          "valid": true,
+          "displayName": "Has documents",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_is_not_empty",
+                        "id": "de23a413-e195-41a8-b6be-cc962915f9f4",
+                        "data": "{{ d4e5f678-90ab-cdef-1234-567890abcdef[\"tasks\"] }}",
+                        "comparator": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "e5f67890-abcd-ef12-3456-7890abcdef12",
+              "valid": true,
+              "displayName": "Analyze document health",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-openai",
+                "pieceVersion": "1.0.0",
+                "actionName": "ai.ask",
+                "input": {
+                  "model": "openai/gpt-5.4-mini",
+                  "prompt": "Perform a comprehensive weekly audit of all documents. For each document, assess: 1) Is it stale (not updated in 30+ days)? 2) Is the completeness score acceptable? 3) Are there version gaps? 4) Any compliance risks? Produce a structured weekly report with sections: Executive Summary, Documents Needing Attention, Documents in Good Standing, and Recommended Actions. Keep it concise but actionable."
+                }
+              }
+            },
+            {
+              "name": "f6789012-3456-7890-abcd-ef1234567890",
+              "valid": true,
+              "displayName": "Send weekly audit report",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "1.0.0",
+                "actionName": "notify.email",
+                "input": {
+                  "body": "{{ e5f67890-abcd-ef12-3456-7890abcdef12[\"result\"] }}",
+                  "subject": "Weekly Document Health Audit",
+                  "recipientEmail": "admin@nkangala.gov.za"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "j012cdef-1234-5678-90ab-cdef01234567",
+          "valid": true,
+          "displayName": "No documents",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "k123def0-1234-5678-90ab-cdef01234567",
+              "valid": true,
+              "displayName": "Send empty audit note",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-taskade",
+                "pieceVersion": "1.0.0",
+                "actionName": "notify.email",
+                "input": {
+                  "body": "No documents found in the repository this week. The document workspace is empty — nothing to audit.",
+                  "subject": "Weekly Document Health Audit",
+                  "recipientEmail": "admin@nkangala.gov.za"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "QWkTPc73ww2C8JDp": {
+      "id": "QWkTPc73ww2C8JDp",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,1080 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "b334efe7-1a2e-4035-8319-ccbfe70d3890",
+        "text": {
+          "ops": [
+            {
+              "insert": "Dual-AI Assistant Interface — PRD"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "8251234d-917f-4e44-9de5-d380661dcc61",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Executive Summary",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8251234d-917f-4e44-9de5-d380661dcc62",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Two complementary AI interfaces sharing one intelligence core: FAB Chat (lightweight floating button for onboarding and quick answers) and Side AI (full agentic sidebar co-pilot with task CRUD, SA regulatory knowledge, audit trails). Differentiated by depth, tool access, and response style — unified by shared context, seamless escalation handoffs, and a single knowledge backbone.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8251234d-917f-4e44-9de5-d380661dcc63",
+            "text": {
+              "ops": [
+                {
+                  "insert": "FAB Chat vs Side AI — Comparison Table",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8251234d-917f-4e44-9de5-d380661dcc64",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KEY COMPARISON:",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0001-4e44-9de5-d380661dcc01",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Purpose — FAB: Onboarding, quick answers, feature discovery, surface-level help. Side AI: Deep co-pilot, task management, regulatory research, complex workflows.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0002-4e44-9de5-d380661dcc02",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Knowledge Depth — FAB: App features, basic FAQs, SA process summaries (< 200 words). Side AI: Full SA regulatory corpus, CIPC/Mining/SARS/POPIA docs, task history, per-user context.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0003-4e44-9de5-d380661dcc03",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Tool Access — FAB: READ-only (view tasks, search docs, check statuses). Side AI: FULL CRUD (create/update/delete tasks, assign users, set priorities, notify, run audits).",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0004-4e44-9de5-d380661dcc04",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Personality — FAB: Warm, concise, encouraging, 2-3 sentence max per reply, emoji-friendly. Side AI: Professional, thorough, citation-heavy, precise, audit-mindful.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0005-4e44-9de5-d380661dcc05",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Context Persistence — FAB: Session-only, resets on close. Side AI: Multi-session, remembers project context, active tasks, user preferences.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0006-4e44-9de5-d380661dcc06",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Escalation — FAB: DETECTS complexity/task intent, OFFERS handoff. Side AI: RECEIVES context, PICKS UP mid-stream, can DEFER simple questions back to FAB.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0007-4e44-9de5-d380661dcc07",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Response Window — FAB: 400x560px floating panel. Side AI: 380-520px resizable sidebar, full viewport height, persists across page navigation.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1a2b3c4-0008-4e44-9de5-d380661dcc08",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIMENSION: Mobile — FAB: Full-screen bottom sheet. Side AI: Full-screen slide-over with back navigation.",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@phase": {
+            "id": "/attributes/@phase",
+            "fieldPath": "/attributes/@phase",
+            "rank": "z"
+          },
+          "/attributes/@prio": {
+            "id": "/attributes/@prio",
+            "fieldPath": "/attributes/@prio",
+            "rank": "zV"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zk"
+          },
+          "/attributes/@owner": {
+            "id": "/attributes/@owner",
+            "fieldPath": "/attributes/@owner",
+            "rank": "zs"
+          },
+          "/attributes/@notes": {
+            "id": "/attributes/@notes",
+            "fieldPath": "/attributes/@notes",
+            "rank": "zw"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@phase": {
+            "id": "/attributes/@phase",
+            "fieldPath": "/attributes/@phase",
+            "rank": "z"
+          },
+          "/attributes/@prio": {
+            "id": "/attributes/@prio",
+            "fieldPath": "/attributes/@prio",
+            "rank": "zV"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zk"
+          },
+          "/attributes/@owner": {
+            "id": "/attributes/@owner",
+            "fieldPath": "/attributes/@owner",
+            "rank": "zs"
+          },
+          "/attributes/@notes": {
+            "id": "/attributes/@notes",
+            "fieldPath": "/attributes/@notes",
+            "rank": "zw"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@phase": {
+            "id": "/attributes/@phase",
+            "fieldPath": "/attributes/@phase",
+            "rank": "z"
+          },
+          "/attributes/@prio": {
+            "id": "/attributes/@prio",
+            "fieldPath": "/attributes/@prio",
+            "rank": "zV"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zk"
+          },
+          "/attributes/@owner": {
+            "id": "/attributes/@owner",
+            "fieldPath": "/attributes/@owner",
+            "rank": "zs"
+          },
+          "/attributes/@notes": {
+            "id": "/attributes/@notes",
+            "fieldPath": "/attributes/@notes",
+            "rank": "zw"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@phase": {
+            "id": "/attributes/@phase",
+            "fieldPath": "/attributes/@phase",
+            "rank": "z"
+          },
+          "/attributes/@prio": {
+            "id": "/attributes/@prio",
+            "fieldPath": "/attributes/@prio",
+            "rank": "zV"
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zk"
+          },
+          "/attributes/@owner": {
+            "id": "/attributes/@owner",
+            "fieldPath": "/attributes/@owner",
+            "rank": "zs"
+          },
+          "/attributes/@notes": {
+            "id": "/attributes/@notes",
+            "fieldPath": "/attributes/@notes",
+            "rank": "zw"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@phase": {
+            "id": "/attributes/@phase",
+            "fieldPath": "/attributes/@phase",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@prio": {
+            "id": "/attributes/@prio",
+            "fieldPath": "/attributes/@prio",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@owner": {
+            "id": "/attributes/@owner",
+            "fieldPath": "/attributes/@owner",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@notes": {
+            "id": "/attributes/@notes",
+            "fieldPath": "/attributes/@notes",
+            "rank": "zw",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@phase": {
+            "id": "/attributes/@phase",
+            "fieldPath": "/attributes/@phase",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@prio": {
+            "id": "/attributes/@prio",
+            "fieldPath": "/attributes/@prio",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@status": {
+            "id": "/attributes/@status",
+            "fieldPath": "/attributes/@status",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@owner": {
+            "id": "/attributes/@owner",
+            "fieldPath": "/attributes/@owner",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@notes": {
+            "id": "/attributes/@notes",
+            "fieldPath": "/attributes/@notes",
+            "rank": "zw",
+            "hidden": false
+          }
+        }
+      }
+    },
+    "fields": {
+      "@phase": {
+        "type": "Select",
+        "displayName": "Phase",
+        "options": {
+          "p1": {
+            "id": "p1",
+            "name": "Phase 1 — Foundation",
+            "color": "#4A90D9",
+            "rank": "0"
+          },
+          "p2": {
+            "id": "p2",
+            "name": "Phase 2 — Side AI Core",
+            "color": "#7ED321",
+            "rank": "1"
+          },
+          "p3": {
+            "id": "p3",
+            "name": "Phase 3 — Deep Integration",
+            "color": "#F5A623",
+            "rank": "2"
+          },
+          "p4": {
+            "id": "p4",
+            "name": "Phase 4 — Polish & Ship",
+            "color": "#D0021B",
+            "rank": "3"
+          }
+        }
+      },
+      "@prio": {
+        "type": "Select",
+        "displayName": "Priority",
+        "options": {
+          "must": {
+            "id": "must",
+            "name": "Must Have",
+            "color": "#D0021B",
+            "rank": "0"
+          },
+          "should": {
+            "id": "should",
+            "name": "Should Have",
+            "color": "#F5A623",
+            "rank": "1"
+          },
+          "could": {
+            "id": "could",
+            "name": "Could Have",
+            "color": "#4A90D9",
+            "rank": "2"
+          }
+        }
+      },
+      "@status": {
+        "type": "Select",
+        "displayName": "Req Status",
+        "options": {
+          "draft": {
+            "id": "draft",
+            "name": "Draft",
+            "color": "#9B9B9B",
+            "rank": "0"
+          },
+          "approved": {
+            "id": "approved",
+            "name": "Approved",
+            "color": "#7ED321",
+            "rank": "1"
+          },
+          "done": {
+            "id": "done",
+            "name": "Implemented",
+            "color": "#4A90D9",
+            "rank": "2"
+          }
+        }
+      },
+      "@owner": {
+        "type": "string",
+        "displayName": "Owner"
+      },
+      "@notes": {
+        "type": "string",
+        "displayName": "Notes"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "⚗️"
+    }
+  }
+}
